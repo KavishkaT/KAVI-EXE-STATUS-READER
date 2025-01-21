@@ -4,7 +4,7 @@ const { fetchJson } = require('../lib/functions');
 const domain = `https://manu-ofc-api-site-6bfcbe0e18f6.herokuapp.com`;
 const api_key = `Manul-Ofc-Sl-Sub-Key-9`;
 cmd({
-    pattern: "sinhala",
+    pattern: "si",
     alias: ["slsub", "sinhalasub"],
     react: '📑',
     category: "download",
@@ -92,7 +92,7 @@ cmd({
                                 },
                                 mimetype: 'video/mp4',
                                 fileName: `${movieDetails.title} - ${selectedLink.quality}.mp4`,
-                                caption: `${movieDetails.title}\nQuality: ${selectedLink.quality}\n\n> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐘𝐝 𝐵𝐲 - : ©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚*`
+                                caption: `${movieDetails.title}\nQuality: ${selectedLink.quality}\n\n> *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐘𝐝 𝐵𝐲 - : 𝗞𝗔𝗩𝗜 𝗘𝗫𝗘 💗*`
                             }, { quoted: pdReply });
 
                     await conn.sendMessage(from, { react: { text: '✅', key: mek.key } });
