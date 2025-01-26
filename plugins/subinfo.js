@@ -11,7 +11,7 @@ cmd({
         try {
         
 
-const data = await fetchJson(`https://apitest1-f7dcf17bd59b.herokuapp.com/movie/sinhalasub/movie?url=${q}`)
+const data = await fetchJson(`https://vajira-official-api.vercel.app/movie/sinhalasub/movie?url=${q}`)
 
 
 let  msg = `*_☘Title ➩ ${data.result.data.title}_*\n\n`
